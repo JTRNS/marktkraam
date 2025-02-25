@@ -13,7 +13,7 @@ mkdir -p dist/icons
 node_modules/.bin/tsc --noEmit
 
 # target browsers based on support for :has selector
-node_modules/esbuild/bin/esbuild src/content-script.ts src/service-worker.ts --bundle --outdir=dist --target=chrome105,firefox121 --format=esm
+node_modules/esbuild/bin/esbuild src/content-script.ts --bundle --outdir=dist --target=chrome105,firefox121
 
 cp icons/*.png dist/icons
 
