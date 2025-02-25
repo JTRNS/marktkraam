@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1{fill:#bf6e16}.cls-2{fill:#3fa9f5}.cls-3{fill:#65baf7}.cls-4{fill:#ff931e}.cls-5{fill:#804a0f}.cls-6{fill:#ffa94b}
+    </style>
+  </defs>
+  <path d="M0 88h128v32c0 4.42-3.58 8-8 8H8c-4.42 0-8-3.58-8-8V88Z" class="cls-4"/>
+  <path d="M128 88H0l6.83-6.83C7.58 80.42 8.6 80 9.66 80h108.69c1.06 0 2.08.42 2.83 1.17l6.83 6.83Z" class="cls-6"/>
+  <path d="M12 32h7v53h-5c-1.1 0-2-.9-2-2V32Z" class="cls-1"/>
+  <path d="M19 32h3v51c0 1.1-.9 2-2 2h-1V32Z" class="cls-5"/>
+  <path d="M107 32h7v53h-5c-1.1 0-2-.9-2-2V32Z" class="cls-1"/>
+  <path d="M114 32h3v51c0 1.1-.9 2-2 2h-1V32Z" class="cls-5"/>
+  <circle cx="8" cy="31" r="8" class="cls-2"/>
+  <circle cx="24" cy="31" r="8" class="cls-4"/>
+  <circle cx="40" cy="31" r="8" class="cls-2"/>
+  <circle cx="56" cy="31" r="8" class="cls-4"/>
+  <circle cx="72" cy="31" r="8" class="cls-2"/>
+  <circle cx="88" cy="31" r="8" class="cls-4"/>
+  <circle cx="104" cy="31" r="8" class="cls-2"/>
+  <circle cx="120" cy="31" r="8" class="cls-4"/>
+  <path d="M16 30H0L5.04 4.82C5.6 2.02 8.06 0 10.92 0H20l-4 30Z" class="cls-3"/>
+  <path d="M32 30H16l4-30h14l-2 30z" class="cls-6"/>
+  <path d="M48 30H32l2-30h14v30z" class="cls-3"/>
+  <path d="M48 0h16v30H48z" class="cls-6"/>
+  <path d="M64 0h16v30H64z" class="cls-3"/>
+  <path d="M96 30H80V0h14l2 30z" class="cls-6"/>
+  <path d="M112 30H96L94 0h14l4 30z" class="cls-3"/>
+  <path d="M128 30h-16l-4-30h9.08c2.86 0 5.32 2.02 5.88 4.82L128 30Z" class="cls-6"/>
+</svg>

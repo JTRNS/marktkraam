@@ -1,0 +1,56 @@
+body {
+  overflow-x: hidden;
+}
+
+#content .hz-H1Title,
+#content .hz-Banner--fluid,
+ul.hz-Listings > .hz-Banner--fluid,
+ul.hz-Listings > .bannerContainerLoading,
+ul.hz-Listings
+  > :is(li, div):has(
+    a[data-tracking],
+    .hz-Listing-seller-link a,
+    iframe,
+    .hz-Listing-seller-other,
+    .hz-Banner--fluid,
+    .hz-Listing-seller-name-container .has-tooltip,
+    .hz-Listing-sub-images
+  ) {
+  display: none;
+}
+section .PopularSearchesBlock-root,
+#top-banner-root,
+#adsense-root,
+#similar-items-root,
+.sr-only,
+.faqFooter,
+footer.hz-Footer,
+.hz-SuggestedSearches,
+#adsense-container-bottom-lazy {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  border: 0;
+  padding: 0;
+  margin: -1px;
+}
+
+.hz-Listing.hz-Listing--list-item {
+  box-shadow: none;
+  border-radius: 0;
+  border: 1px solid #e0e0e0;
+}
+
+/* Leaves more space for listings */
+.hz-Page-element.hz-Page-element--aside {
+  max-width: max-content !important;
+}
+
+/* custom listing for no-content message */
+.hz-Listing--no-content {
+  color: red;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+}

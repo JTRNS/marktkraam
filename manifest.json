@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/chrome-manifest",
+  "manifest_version": 3,
+  "name": "Marktkraam",
+  "version": "0.1.0",
+  "description": "Marktkraam verbeterd de Marktplaats ervaring door alleen particuliere advertenties te tonen.",
+  "permissions": ["scripting"],
+  "minimum_chrome_version": "105",
+  "host_permissions": ["https://www.marktplaats.nl/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.marktplaats.nl/*"],
+      "js": ["content-script.js"],
+      "css": ["content-styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon_16.png",
+    "32": "icons/icon_32.png",
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  }
+}
