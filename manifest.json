@@ -4,9 +4,7 @@
   "name": "Marktkraam",
   "version": "0.1.0",
   "description": "Marktkraam verbeterd de Marktplaats ervaring door alleen particuliere advertenties te tonen.",
-  "permissions": ["scripting"],
   "minimum_chrome_version": "105",
-  "host_permissions": ["https://www.marktplaats.nl/*"],
   "content_scripts": [
     {
       "matches": ["https://*.marktplaats.nl/*"],
